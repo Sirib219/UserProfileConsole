@@ -13,11 +13,9 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             UserProfileConsoleTheme {
-
                 Surface {
-                    BusinessCardLayout()
+                    ContactInputScreen()
                 }
-
             }
         }
     }
