@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             UserProfileConsoleTheme {
                 Surface {
-                    DiceRollerScreen()
+                    TipCalculatorScreen()
                 }
             }
         }
