@@ -1,5 +1,5 @@
 package com.example.userprofileconsole
-import com.example.userprofileconsole.BusinessCardLayout
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,9 +13,11 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             UserProfileConsoleTheme {
+
                 Surface {
-                    ContactInputScreen()
+                    DiceRollerScreen()
                 }
+
             }
         }
     }
