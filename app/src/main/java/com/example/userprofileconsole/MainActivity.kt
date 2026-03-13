@@ -1,5 +1,5 @@
 package com.example.userprofileconsole
-
+import com.example.userprofileconsole.ui.LambdaDiscountScreen
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             UserProfileConsoleTheme {
                 Surface {
-                    InventoryScreen()
+                    LambdaDiscountScreen()
                 }
             }
         }
